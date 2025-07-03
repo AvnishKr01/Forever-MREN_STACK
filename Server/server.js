@@ -17,8 +17,8 @@ connectCloudinary();
 // let tackel the cors //
 
 var corsOptions = {
-    // origin:['http://localhost:5173', 'http://localhost:5174'],
-    origin:'https://forever-admin-tau-pied.vercel.app',
+    origin:['http://localhost:5173', 'http://localhost:5174'],
+    origin:['http://localhost:5173', 'http://localhost:5174'],
     methods:'GET, POST, DELETE, PATCH, HEAD',
     Credential:true,
 }
