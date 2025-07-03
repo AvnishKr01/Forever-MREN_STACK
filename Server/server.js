@@ -17,7 +17,7 @@ connectCloudinary();
 // let tackel the cors //
 
 var corsOptions = {
-    origin:['http://localhost:5173', 'http://localhost:5174'],
+    origin:['http://localhost:5173', 'http://localhost:5174', 'https://forever-admin-five-rho.vercel.app'],
     methods:'GET, POST, DELETE, PATCH, HEAD',
     Credential:true,
 }
